@@ -23,13 +23,13 @@
   },
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
-  "homepage": "https://github.com/joutvhu/data-mapping#readme",
+  "homepage": "https://github.com/joutvhu/import-by#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joutvhu/data-mapping.git"
+    "url": "https://github.com/joutvhu/import-by.git"
   },
   "bugs": {
-    "url": "https://github.com/joutvhu/data-mapping/issues"
+    "url": "https://github.com/joutvhu/import-by/issues"
   },
   "directories": {
     "lib": "lib"
