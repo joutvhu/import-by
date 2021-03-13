@@ -15,9 +15,12 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 8
-      - run: npm install
-      - run: npm run lint
-      - run: npm run build
+      - name: Install packages
+        run: npm install
+      - name: Check tslint
+        run: npm run lint
+      - name: Compile ts
+        run: npm run build
 
   publish-npm:
     needs: build
