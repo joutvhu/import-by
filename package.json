@@ -1,0 +1,52 @@
+{
+  "name": "import-by",
+  "version": "1.0.0",
+  "description": "Import a module using a string reference",
+  "scripts": {
+    "build": "rimraf -- lib && tsc --project tsconfig.json",
+    "lint": "tslint --project tsconfig.json"
+  },
+  "keywords": [
+    "import",
+    "module",
+    "string-ref",
+    "parent-dirname"
+  ],
+  "author": {
+    "name": "Giao Ho",
+    "email": "joutvhu@gmail.com",
+    "url": "github.com/joutvhu"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=4"
+  },
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "homepage": "https://github.com/joutvhu/data-mapping#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joutvhu/data-mapping.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joutvhu/data-mapping/issues"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/node": "^14.14.34",
+    "rimraf": "^3.0.2",
+    "tslint": "^6.1.3",
+    "typescript": "^4.2.3"
+  }
+}
