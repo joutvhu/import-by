@@ -12,20 +12,20 @@ yarn add import-by
 
 ## Usage
 
+See the following example to understand how to use it
+
 ```js
-// info.js
-let i = 0;
-module.exports.name = {
-    first: 'Giao',
-    second: 'Ho'
+// detail.js
+module.exports.beverage = {
+    id: 12,
+    name: 'coffee'
 };
 ```
 
 ```js
 const {importBy} = require('import-by');
 
-const name = importBy('./info#name');
+const beverage = importBy('./detail#beverage');
 
-const firstName = importBy('./info#name.first', __dirname);
-
+const beverageName = importBy('./detail#beverage.name', __dirname);
 ```
