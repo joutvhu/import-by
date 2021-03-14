@@ -1,6 +1,6 @@
 {
   "name": "import-by",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Import a module using a string reference",
   "scripts": {
     "build": "rimraf -- lib && tsc --project tsconfig.json",
